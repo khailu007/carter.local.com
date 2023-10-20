@@ -1,0 +1,62 @@
+
+---Downloaded files---
+The import files for: Agriox Demo Import were successfully downloaded!
+Initial max execution time = 3600
+Files info:
+Site URL = https://carter.local.com:444
+Data file = D:\xampp7\www\carter.local.com/wp-content/themes/agriox/inc/demo-data/sample-data.xml
+Widget file = D:\xampp7\www\carter.local.com/wp-content/themes/agriox/inc/demo-data/widgets.wie
+Customizer file = D:\xampp7\www\carter.local.com/wp-content/themes/agriox/inc/demo-data/customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar : 
+
+Block - No Title - Imported
+recent-posts-widget-with-thumbnails - Recent Posts - Site does not support widget
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Shop Sidebar : 
+
+Block - No Title - Imported
+Filter Products by Price - Filter by price - Imported
+Block - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+
