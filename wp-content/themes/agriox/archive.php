@@ -15,16 +15,22 @@
 
 get_header();
 ?>
-
 <!--Blog Sidebar Start-->
 <section class="news-sidebar">
 	<div class="container">
 		<div class="row">
+			<h1>
+				<?php if (!is_page()) : ?>
+					<?php agriox_page_title(); ?>
+				<?php else : ?>
+					<?php echo wp_kses($agriox_page_title_text, 'agriox_allowed_tags') ?>
+				<?php endif; ?>
+			</h1>
+			<!-- End Custom h1 in Single Blog One-->
 			<?php $agriox_content_class = (is_active_sidebar('sidebar-1')) ? "col-xl-8 col-lg-7" : "col-xl-12 col-lg-12" ?>
 			<div class="<?php echo esc_attr($agriox_content_class); ?>">
 				<div class="news-sidebar__left">
 					<div id="primary" class="site-main">
-
 						<?php
 						if (have_posts()) :
 
@@ -59,7 +65,6 @@ get_header();
 
 						endif;
 						?>
-
 					</div><!-- #main -->
 				</div>
 			</div>
@@ -74,6 +79,5 @@ get_header();
 	</div>
 </section>
 <!--Blog Sidebar End-->
-
 <?php
 get_footer();

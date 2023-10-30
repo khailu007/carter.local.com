@@ -25,7 +25,18 @@
         </div>
         <div class="footer-widget__news-list-item-title">
             <p><?php the_time( 'd M, y' ); ?></p>
-            <h5><a href="<?php the_permalink(); ?>"><?php echo wp_kses( get_the_title(), 'agriox_allowed_tags' ); ?></a></h5>
+            <style type="text/css">
+                .cus-footer-news-link a {
+                    color: #fff;
+                }
+                .cus-footer-news-link a:hover {
+                    font-weight: bold;
+                    color:#f1cf69;
+                }
+            </style>
+            <div class="cus-footer-news-link" style="color:#fff;">
+                <a href="<?php the_permalink(); ?>"><?php echo wp_kses( get_the_title(), 'agriox_allowed_tags' ); ?></a>
+            </div>
         </div>
     </li>
 <?php endwhile; ?>

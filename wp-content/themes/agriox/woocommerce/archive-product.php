@@ -26,15 +26,23 @@ get_header( 'shop' );
 		<div class="row clearfix">
 			<?php if (is_active_sidebar('shop')) : ?>
 				<!--Sidebar Side-->
-				<div class="col-lg-3">
+<!-- 				<div class="col-lg-3">
 					<aside class="shop-one__sidebar sidebar">
-						<?php get_sidebar('shop'); ?>
+						<?php //get_sidebar('shop'); ?>
 					</aside>
-				</div>
+				</div> -->
 			<?php endif; ?>
-
+			<!-- Begin Custom h1 in Single Blog One-->
+			<h1>
+				<?php if (!is_page()) : ?>
+					<?php agriox_page_title(); ?>
+				<?php else : ?>
+					<?php echo wp_kses($agriox_page_title_text, 'agriox_allowed_tags') ?>
+				<?php endif; ?>
+			</h1>
+			<!-- End Custom h1 in Single Blog One-->
 			<!--Content Side-->
-			<div class="content-side <?php echo esc_attr(is_active_sidebar('shop') ? 'col-lg-9' : ''); ?> col-md-12 col-sm-12">
+			<div class="content-side <?php echo esc_attr(is_active_sidebar('shop') ? 'col-lg-12' : ''); ?> col-md-12 col-sm-12">
 					<?php
 					do_action('woocommerce_before_main_content');
 					if (woocommerce_product_loop()) {

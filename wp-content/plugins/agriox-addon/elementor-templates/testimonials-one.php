@@ -76,7 +76,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="testimonials-one__single-client-info-title">
-                                                    <h4><?php the_title(); ?></h4>
+                                                    <div><?php the_title(); ?></div>
                                                     <p><?php echo esc_html(get_post_meta(get_the_ID(), 'agriox_designation', true)); ?></p>
                                                 </div>
                                             </div>

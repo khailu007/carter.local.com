@@ -53,8 +53,8 @@
 
 
 								<div class="stricky-one-logo">
-									<div class="logo">
-										<a href="<?php echo esc_url(home_url('/')); ?>">
+									<div class="logo" style="width: 180px; height: 90px;">
+										<a href="<?php echo esc_url(home_url('/')); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?>" title="<?php echo esc_attr(get_bloginfo('name')); ?>">
 											<img class="dark-logo" width="<?php echo esc_attr($settings['logo_dimension']['width']); ?>" height="<?php echo esc_attr($settings['logo_dimension']['height']); ?>" src="<?php echo esc_url($settings['dark_logo']['url']); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?>">
 											<img class="light-logo" width="<?php echo esc_attr($settings['logo_dimension']['width']); ?>" height="<?php echo esc_attr($settings['logo_dimension']['height']); ?>" src="<?php echo esc_url($settings['light_logo']['url']); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?>">
 										</a>
@@ -75,14 +75,23 @@
 							</div>
 						</nav>
 
+						<style type="text/css">
+							.cus_logo_header {
+								background-image: url('<?php echo esc_url($settings['dark_logo']['url']); ?>');
+								background-size: contain;
+								background-repeat: no-repeat;
+								width: 100%;
+								height: 100%;
+							}
+						</style>
 						<div class="main-header--one__bottom-middel">
-							<div class="logo">
-								<a href="<?php echo esc_url(home_url('/')); ?>">
-									<img class="dark-logo" width="<?php echo esc_attr($settings['logo_dimension']['width']); ?>" height="<?php echo esc_attr($settings['logo_dimension']['height']); ?>" src="<?php echo esc_url($settings['dark_logo']['url']); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?>">
-									<img class="light-logo" width="<?php echo esc_attr($settings['logo_dimension']['width']); ?>" height="<?php echo esc_attr($settings['logo_dimension']['height']); ?>" src="<?php echo esc_url($settings['light_logo']['url']); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?>">
+							<div class="logo" style="width: 180px; height: 90px;">
+								<a href="<?php echo esc_url(home_url('/')); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?>" title="<?php echo esc_attr(get_bloginfo('name')); ?>">
+									<div class="cus_logo_header"></div>
 								</a>
 							</div>
-							<a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+
+							<a href="#" class="mobile-nav__toggler" aria-label="menu bars" alt="<?php echo esc_attr(get_bloginfo('name')); ?>" title="<?php echo esc_attr(get_bloginfo('name')); ?>"><i class="fa fa-bars"></i></a>
 						</div>
 
 						<div class="main-header--one__bottom-right clearfix">
@@ -217,7 +226,7 @@
 								<p><?php echo esc_html($settings['topbar_phone_icon_text']); ?></p>
 							<?php endif; ?>
 							<?php if (!empty($settings['topbar_phone_number'])) : ?>
-								<a href="tel:<?php echo esc_url(str_replace(' ', '-', $settings['topbar_phone_number'])); ?>"><?php echo esc_html($settings['topbar_phone_number']); ?></a>
+								<a href="tel:<?php echo esc_html($settings['topbar_phone_number']); ?>"><?php echo esc_html($settings['topbar_phone_number']); ?></a>
 							<?php endif; ?>
 						</div>
 					</div><!-- /.main-header-three__upper__contact -->
@@ -239,7 +248,7 @@
 								<p><?php echo esc_html($settings['topbar_email_icon_text']); ?></p>
 							<?php endif; ?>
 							<?php if (!empty($settings['topbar_email_address'])) ?>
-							<a href="mailto:<?php echo esc_url($settings['topbar_email_address']); ?>"><?php echo esc_html($settings['topbar_email_address']); ?></a>
+							<a href="mailto:<?php echo esc_html($settings['topbar_email_address']); ?>"><?php echo esc_html($settings['topbar_email_address']); ?></a>
 
 						</div>
 					</div><!-- /.main-header-three__upper__contact -->
@@ -325,7 +334,7 @@
 			<?php if ($settings['mobile_phone']) : ?>
 				<li>
 					<i class="fa fa-phone-alt"></i>
-					<a href="tel:<?php echo esc_url(str_replace(' ', '-', $settings['mobile_phone'])); ?>">
+					<a href="tel:<?php echo esc_html($settings['mobile_phone']); ?>">
 						<?php echo esc_html($settings['mobile_phone']); ?>
 					</a>
 				</li>

@@ -35,7 +35,7 @@
 	<!-- /.preloader -->
 
 	<div id="page" class="site page-wrapper">
-		<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e('Skip to content', 'agriox'); ?></a>
+		<!-- <a class="skip-link screen-reader-text" href="#primary"><?php //esc_html_e('Skip to content', 'agriox'); ?></a> -->
 
 	<?php do_action('agriox_header'); ?>
 

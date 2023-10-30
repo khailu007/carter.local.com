@@ -90,7 +90,7 @@ if (!function_exists('agriox_page_title')) :
         if (is_home()) {
             echo esc_html__('Our Blog', 'agriox');
         } elseif (is_archive()) {
-            esc_html(the_archive_title());
+            echo esc_html__('Gợi ý dành cho bạn', 'agriox');
         } elseif (is_page()) {
             esc_html(the_title());
         } elseif (is_single()) {

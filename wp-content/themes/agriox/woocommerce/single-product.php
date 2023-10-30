@@ -59,6 +59,42 @@ get_header('shop'); ?>
 	</div>
 </div>
 
+		<div class="container">
+			<h3 class="heading-section"> Sản phấm liên quan</h3>
+	            <div class="row">
+								<?php woocommerce_product_loop_start(); ?>
+				<?php
+				    $terms = get_the_terms(get_the_ID(),'product_cat'); //Lấy danh sách các thành phần trong Category theo ID của sản phẩm hiện tại
+				        //echo '<pre>';
+				        //print_r($terms);
+				    	//echo '/<pre>';
+				    $current_term = $terms[0] ->slug; // Chọn phần từ đầu tiên trong mảng và lấy ra slug
+				    if ($current_term) {
+					    $args = array(
+						        'product_cat' => $current_term,
+						        'post__not_in' => array(get_the_ID()),
+						        'showposts'=> 4, // Số bài viết bạn muốn hiển thị.
+						        'caller_get_posts'=>1,
+						        'post-type' => 'product',
+
+					        );
+
+					        $my_query = new wp_query($args);
+					        if( $my_query->have_posts() ) 
+					        {
+					            while ($my_query->have_posts())
+					            {
+					                $my_query->the_post(); ?>
+					                	<?php wc_get_template_part( 'content', 'product' );?>
+					                <?php
+					            }
+					        }
+				    }
+
+				?>
+			<?php woocommerce_product_loop_end(); ?>
+				</div>
+		</div>
 
 <?php
 get_footer('shop');

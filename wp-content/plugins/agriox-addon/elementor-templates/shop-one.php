@@ -94,7 +94,7 @@
 							?>
 						</div><!-- /.shop-one__image -->
 						<div class="shop-one__content text-center">
-							<h3 class="shop-one__title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+							<div class="shop-one__title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
 							<p class="shop-one__price"><?php echo wc_price( $price ); ?></p><!-- /.shop-one__price -->
 							<div class="shop-one__rating">
 								<?php wc_get_template( 'single-product/rating.php' ); ?>

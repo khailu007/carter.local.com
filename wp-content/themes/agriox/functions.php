@@ -174,7 +174,7 @@ function agriox_scripts()
 
     wp_enqueue_script('bootstrap', get_template_directory_uri() . '/assets/vendors/bootstrap/js/bootstrap.min.js', array('jquery'), '5.0.0', true);
     wp_enqueue_script('agriox-theme', get_template_directory_uri() . '/assets/js/agriox-theme.js', array('jquery'), time(), true);
-
+    wp_enqueue_script('scroll-passive', get_template_directory_uri() . '/assets/js/scrollpassive.min.js', array('jquery'), time(), true);
 
 
     if (is_singular() && comments_open() && get_option('thread_comments')) {
@@ -243,3 +243,114 @@ if (class_exists('OCDI_Plugin')) {
 if (class_exists('WooCommerce')) {
     require get_template_directory() . '/inc/woocommerce.php';
 }
+
+/**
+* Disable xmlrpc
+*/  
+add_filter( 'xmlrpc_enabled', '__return_false' );
+
+/**
+ * Change original logo
+ */
+function wpb_change_login_logo() { ?>
+    <style type="text/css">
+        #login h1 a, .login h1 a {
+            background-image: url(<?php echo get_site_url(); ?>/wp-content/uploads/2023/10/logo-carter-1-268x219.png);
+                width:268px;
+                height:219px;
+                background-size: 268px 219px;
+                background-repeat: no-repeat;
+                padding-bottom: 30px;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'wpb_change_login_logo' );
+
+/**
+ * Change favicon admin
+ */
+function add_favicon_admin() {
+    printf('<link rel="icon" sizes="32x32" href="%s" />', get_site_url() . '/wp-content/uploads/2023/10/logo-carter-1-75x75.png');
+    printf('<link rel="icon" sizes="16x16" href="%s" />', get_site_url() . '/wp-content/uploads/2023/10/logo-carter-1-75x75.png');
+}
+add_action('login_head', 'add_favicon_admin');
+add_action('admin_head', 'add_favicon_admin');
+
+/**
+ * Hide original logo
+ */
+function wpb_hide_original_logo() {
+echo '
+    <style type="text/css">
+        #wp-admin-bar-wp-logo {
+            display: none;
+        }
+    </style>
+    ';
+}
+add_action('wp_before_admin_bar_render', 'wpb_hide_original_logo');
+
+/**
+ * Remove update notice
+ */
+function remove_update_notice() { ?>
+    <style type="text/css">
+        #update-nag,
+        .update-nag {
+            /*display: inline-block;*/
+            line-height: 1.4;
+            padding: 11px 15px;
+            font-size: 14px;
+            margin: 25px 2px 0 20px;
+            display: none;
+        }
+    </style>
+<?php }
+add_action( 'wp_before_admin_bar_render', 'remove_update_notice' );
+
+/**
+ * Remove notice warning
+ */
+function remove_notice_warning() { ?>
+    <style type="text/css">
+      .notice-warning {
+          display: none;
+      }
+
+      .notice-info {
+          display: none;
+      }
+    </style>
+<?php }
+add_action( 'wp_before_admin_bar_render', 'remove_notice_warning' );
+
+/**
+ * Remove dashboard metaboxes
+ */
+function wpse_73561_remove_all_dashboard_meta_boxes()
+{
+    global $wp_meta_boxes;
+    $wp_meta_boxes['dashboard']['normal']['core'] = array();
+    $wp_meta_boxes['dashboard']['side']['core'] = array();
+}
+add_action('wp_dashboard_setup', 'wpse_73561_remove_all_dashboard_meta_boxes', 9999 );
+
+/**
+ * Remove update core
+ */
+function remove_core_updates () {
+     global $wp_version;
+     return(object) array(
+          'last_checked'=> time(),
+          'version_checked'=> $wp_version,
+          'updates' => array()
+     );
+}
+add_filter('pre_site_transient_update_core','remove_core_updates');
+add_filter('pre_site_transient_update_plugins','remove_core_updates');
+add_filter('pre_site_transient_update_themes','remove_core_updates');
+
+add_filter( 'elementor_pro/custom_fonts/font_display', function( $current_value, $font_family, $data ) {
+    return 'swap';
+}, 10, 3 );
+?>

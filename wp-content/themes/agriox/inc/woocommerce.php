@@ -249,7 +249,7 @@ function agriox_thumbnail_markup_open()
 
 	function agriox_product_title()
 	{ ?>
-		<h3 class="shop-one__title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+		<div class="shop-one__title fw-bold"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
 	<?php }
 
 
@@ -257,7 +257,7 @@ function agriox_thumbnail_markup_open()
 	{
 		global $product;
 	?>
-		<p class="shop-one__price"><?php echo wp_kses_post($product->get_price_html()); ?></p><!-- /.shop-one__price -->
+		<p class="shop-one__price" style="font-size: 28px!important;"><?php echo wp_kses_post($product->get_price_html()); ?></p><!-- /.shop-one__price -->
 	<?php }
 
 
@@ -296,7 +296,7 @@ function agriox_thumbnail_markup_open()
 	add_action('woocommerce_single_product_summary', 'agriox_template_single_title');
 	function agriox_template_single_title()
 	{
-		the_title('<h3 class="product-details__content__name">', '</h3>');
+		the_title('<h1 class="product-details__content__name">', '</h1>');
 	}
 
 	add_action('woocommerce_single_product_summary', 'agriox_template_single_price');
@@ -388,14 +388,14 @@ function agriox_thumbnail_markup_open()
 		$pinterest_share_link = 'https://pinterest.com/pin/create/button/?url=' . $agriox_url . '&amp;media=' . $agriox_thumbnail[0] . '&amp;description=' . $agriox_title;
 
 ?>
-	<div class="product-details__content__social">
-		<div class="product-details__content__social__text"><?php esc_html_e('Share with friends', 'agriox'); ?></div>
+	<!-- <div class="product-details__content__social"> -->
+		<!-- <div class="product-details__content__social__text"><?php //esc_html_e('Share with friends', 'agriox'); ?></div> -->
 		<!-- /.product-details__content__social__text -->
-		<a href="<?php echo esc_url($facebook_share_link); ?>" class="fab fa-facebook"></a>
-		<a href="<?php echo esc_url($twitter_share_link); ?>" class="fab fa-twitter"></a>
-		<a href="<?php echo esc_url($linkedin_share_link); ?>" class="fab fa-linkedin"></a>
-		<a href="<?php echo esc_url($pinterest_share_link); ?>" class="fab fa-pinterest-p"></a>
-	</div>
+		<!-- <a href="<?php //echo esc_url($facebook_share_link); ?>" class="fab fa-facebook"></a> -->
+		<!-- <a href="<?php //echo esc_url($twitter_share_link); ?>" class="fab fa-twitter"></a> -->
+		<!-- <a href="<?php //echo esc_url($linkedin_share_link); ?>" class="fab fa-linkedin"></a> -->
+		<!-- <a href="<?php //echo esc_url($pinterest_share_link); ?>" class="fab fa-pinterest-p"></a> -->
+	<!-- </div> -->
 <?php
 	}
 
@@ -406,7 +406,7 @@ function agriox_thumbnail_markup_open()
 	{ ?>
 	<section class="product-content">
 		<div class="container">
-			<h2 class="product-content__title"><?php esc_html_e('Description', 'agriox'); ?></h2><!-- /.product-content__title -->
+			<h2 class="product-content__title"><?php esc_html_e('Thông tin chi tiết', 'agriox'); ?></h2><!-- /.product-content__title -->
 			<?php the_content(); ?>
 		</div><!-- /.container -->
 	</section><!-- /.product-content -->

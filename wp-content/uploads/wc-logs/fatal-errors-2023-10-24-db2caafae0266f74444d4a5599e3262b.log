@@ -1,0 +1,52 @@
+2023-10-24T05:08:55+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\template-parts\content.php on line 101
+
+2023-10-24T05:09:37+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\template-parts\content.php on line 101
+
+2023-10-24T05:09:39+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\template-parts\content.php on line 101
+
+2023-10-24T05:10:28+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\template-parts\content.php on line 102
+
+2023-10-24T05:10:34+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\template-parts\content.php on line 102
+
+2023-10-24T05:11:14+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\template-parts\content.php on line 101
+
+2023-10-24T05:13:39+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\template-parts\content.php on line 105
+
+2023-10-24T05:13:49+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\template-parts\content.php on line 105
+
+2023-10-24T05:16:48+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\template-parts\content.php on line 106
+
+2023-10-24T05:18:09+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\template-parts\content.php on line 114
+
+2023-10-24T05:18:28+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\template-parts\content.php on line 109
+
+2023-10-24T05:18:32+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\template-parts\content.php on line 109
+
+2023-10-24T06:06:19+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\single.php on line 93
+
+2023-10-24T06:06:30+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\single.php on line 93
+
+2023-10-24T06:06:39+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\single.php on line 93
+
+2023-10-24T06:06:52+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\single.php on line 92
+
+2023-10-24T06:07:37+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\single.php on line 91
+
+2023-10-24T06:07:39+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\single.php on line 91
+
+2023-10-24T06:08:07+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\single.php on line 91
+
+2023-10-24T06:13:02+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\template-parts\content.php on line 111
+
+2023-10-24T06:15:00+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\template-parts\content.php on line 116
+
+2023-10-24T06:22:14+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\single.php on line 94
+
+2023-10-24T06:25:10+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\single.php on line 90
+
+2023-10-24T06:25:23+00:00 CRITICAL syntax error, unexpected '}' in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\single.php on line 88
+
+2023-10-24T06:25:52+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\single.php on line 93
+
+2023-10-24T06:26:04+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in D:\xampp7\www\carter.local.com\wp-content\themes\agriox\single.php on line 95
+

@@ -49,7 +49,7 @@ $agriox_dynamic_header = isset($_GET['custom_header_id']) ? $_GET['custom_header
 
 						<nav class="main-menu main-menu--1">
 							<div class="main-menu__inner">
-								<a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+								<a href="#" class="mobile-nav__toggler" aria-label="menu bars"><i class="fa fa-bars"></i></a>
 
 								<div class="stricky-one-logo">
 									<div class="logo">

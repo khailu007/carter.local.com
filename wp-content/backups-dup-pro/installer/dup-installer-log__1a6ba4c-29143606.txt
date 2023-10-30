@@ -1,0 +1,1409 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 12:52:02
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 7.4.33                                |7.4.29
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.29 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.29
+DOC ROOT____________: "D:/xampp7/www/carter.local.com"
+REQUEST URL_________: "https://carter.local.com:444"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[cpnl-dbaction]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "D:/xampp7/www/carter.local.com"
+URL_NEW_____________: "https://carter.local.com:444"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "D:/xampp7/www/carter.local.com/20231029_carter_[HASH]_20231029143606_archive.zip"
+ARCHIVE SIZE________: 255.87MB
+CREATED_____________: 2023-10-29 14:36:06
+WP VERSION__________: 6.3.2
+DUP VERSION_________: 4.5.5.1
+LICENSE_____________: unlicensed
+DB VERSION__________: 8.0.35
+DB FILE SIZE________: 28.03MB
+DB TABLES___________: 64
+DB ROWS_____________: 4062
+URL HOME____________: https://carter.com.vn
+URL CORE____________: https://carter.com.vn
+URL CONTENT_________: https://carter.com.vn/wp-content
+URL UPLOAD__________: https://carter.com.vn/wp-content/uploads
+URL PLUGINS_________: https://carter.com.vn/wp-content/plugins
+URL MU PLUGINS______: https://carter.com.vn/wp-content/mu-plugins
+URL THEMES__________: https://carter.com.vn/wp-content/themes
+PATH HOME___________: /home/carterco/public_html
+PATH ABS____________: /home/carterco/public_html
+PATH WPCONFIG_______: /home/carterco/public_html
+PATH WPCONTENT______: /home/carterco/public_html/wp-content
+PATH UPLOADS________: /home/carterco/public_html/wp-content/uploads
+PATH PLUGINS________: /home/carterco/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home/carterco/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home/carterco/public_html/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "carter.com.vn/"
+
+PLUGINS
+PLUGIN [SLUG:agriox-addon/agriox-addon.php                     ][ON:true ]  Agriox Theme Addon
+PLUGIN [SLUG:button-contact-vr/button-contact-vr.php           ][ON:true ]  Button contact VR
+PLUGIN [SLUG:cmb2/init.php                                     ][ON:true ]  CMB2
+PLUGIN [SLUG:cmb-field-select2/cmb-field-select2.php           ][ON:true ]  CMB2 Field Type: Select2
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:contact-form-7-simple-recaptcha/contact-form-7-simple-recaptcha.php][ON:true ]  Contact Form 7 Captcha
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ]  Duplicator Pro
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:elementor-pro/elementor-pro.php                   ][ON:true ]  Elementor Pro
+PLUGIN [SLUG:flamingo/flamingo.php                             ][ON:true ]  Flamingo
+PLUGIN [SLUG:font-awesome/index.php                            ][ON:true ]  Font Awesome
+PLUGIN [SLUG:litespeed-cache/litespeed-cache.php               ][ON:true ]  LiteSpeed Cache
+PLUGIN [SLUG:post-duplicator/m4c-postduplicator.php            ][ON:true ]  Post Duplicator
+PLUGIN [SLUG:seo-by-rank-math/rank-math.php                    ][ON:true ]  Rank Math SEO
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:true ]  WooCommerce
+PLUGIN [SLUG:woocommerce-extra-price-fields/woocommerce-extra-price-fields.php][ON:true ]  Woocoomerce Extra Price Fields
+PLUGIN [SLUG:wps-hide-login/wps-hide-login.php                 ][ON:true ]  WPS Hide Login
+PLUGIN [SLUG:zoho-mail/zohoMail.php                            ][ON:true ]  Zoho Mail
+PLUGIN [SLUG:object-cache.php                                  ][ON:false]  object-cache.php
+
+********************************************************************************
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\ctrls\ctrl.base.php:232][DELTA:   0.36875]  MESSAGE:END RENDER PAGE
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\ctrls\ctrl.base.php:232][DELTA:   0.28388]  MESSAGE:END RENDER PAGE
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00041]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00032]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00130]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00048]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+LOG-TIME[DELTA:   0.23905]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00081]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00041]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00108]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.20753]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00267]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00025]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.06003]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00431]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00118]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00180]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00037]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WP Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00554]  MESSAGE:TEST "Multiple WP Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.03058]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.16373]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00129]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00427]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00030]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00144]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00293]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: soft warning
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00056]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 12:54:33
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Carter"
+HOME URL NEW________: "https://carter.local.com:444"
+SITE URL NEW________: "https://carter.local.com:444"
+CONTENT URL NEW_____: "https://carter.local.com:444/wp-content"
+UPLOAD URL NEW______: "https://carter.local.com:444/wp-content/uploads"
+PLUGINS URL NEW_____: "https://carter.local.com:444/wp-content/plugins"
+MUPLUGINS URL NEW___: "https://carter.local.com:444/wp-content/mu-plugins"
+HOME PATH NEW_______: "D:/xampp7/www/carter.local.com"
+SITE PATH NEW_______: "D:/xampp7/www/carter.local.com"
+CONTENT PATH NEW____: "D:/xampp7/www/carter.local.com/wp-content"
+UPLOAD PATH NEW_____: "D:/xampp7/www/carter.local.com/wp-content/uploads"
+PLUGINS PATH NEW____: "D:/xampp7/www/carter.local.com/wp-content/plugins"
+MUPLUGINS PATH NEW__: "D:/xampp7/www/carter.local.com/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "D:/xampp7/www/carter.local.com/dup-installer"
+	FILE: "D:/xampp7/www/carter.local.com/20231029_carter_[HASH]_20231029143606_installer-backup.php"
+	FILE: "D:/xampp7/www/carter.local.com/20231029_carter_[HASH]_20231029143606_archive.zip"
+	FILE: "D:/xampp7/www/carter.local.com/installer.php"
+	FILE: "D:/xampp7/www/carter.local.com/dup-installer-bootlog__1a6ba4c-29143606.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20231029_carter_[HASH]_20231029143606_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING
+*** RESET CONFIG FILES END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.6957 sec. - Files processed: 2 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0177 sec. - Files processed: 3,956 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3956
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0153 sec. - Files processed: 4,995 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4995
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0674 sec. - Files processed: 6,591 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6591
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0444 sec. - Files processed: 7,321 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7321
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0384 sec. - Files processed: 7,919 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7919
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0172 sec. - Files processed: 8,722 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8722
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0736 sec. - Files processed: 9,093 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9093
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0165 sec. - Files processed: 9,817 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9817
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0349 sec. - Files processed: 10,501 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10501
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0163 sec. - Files processed: 11,142 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11142
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.2532 sec. - Files processed: 11,630 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11630
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0367 sec. - Files processed: 12,367 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12367
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0155 sec. - Files processed: 12,791 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12791
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0297 sec. - Files processed: 13,815 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 13815
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0335 sec. - Files processed: 15,093 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15093
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0171 sec. - Files processed: 15,876 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15876
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0701 sec. - Files processed: 16,242 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 16242
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0193 sec. - Files processed: 16,800 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 16800
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0173 sec. - Files processed: 17,229 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 17229
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0162 sec. - Files processed: 17,662 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 17662
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0235 sec. - Files processed: 18,038 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 18038
+--------------------------------------
+PATHS MAPPING : "D:/xampp7/www/carter.local.com"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 18978
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 12:56:34 - RUNTIME: 121.8104 sec. - Files processed: 18,111 of 18,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 12:56:34
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_actionscheduler_actions"______________________[ROWS:     177] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_actions]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_claims]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_groups]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:     529] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_logs]
+TABLE "wp_commentmeta"__________________________________[ROWS:      18] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:      19] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_entities]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_packages]
+TABLE "wp_e_events"_____________________________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wp_e_events]
+TABLE "wp_e_submissions"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_actions_log]
+TABLE "wp_e_submissions_values"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_values]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_litespeed_avatar"_____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_litespeed_avatar]
+TABLE "wp_litespeed_url"________________________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wp_litespeed_url]
+TABLE "wp_litespeed_url_file"___________________________[ROWS:      11] [EXTRACT|REPLACE] [INST NAME: wp_litespeed_url_file]
+TABLE "wp_options"______________________________________[ROWS:     770] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:    2152] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:     170] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_rank_math_404_logs"___________________________[ROWS:      49] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_404_logs]
+TABLE "wp_rank_math_internal_links"_____________________[ROWS:     101] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_internal_links]
+TABLE "wp_rank_math_internal_meta"______________________[ROWS:      43] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_internal_meta]
+TABLE "wp_rank_math_redirections"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_redirections]
+TABLE "wp_rank_math_redirections_cache"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_rank_math_redirections_cache]
+TABLE "wp_term_relationships"___________________________[ROWS:     111] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:      48] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_termmeta"_____________________________________[ROWS:      36] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:      48] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_usermeta"_____________________________________[ROWS:     109] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_users]
+TABLE "wp_wc_admin_note_actions"________________________[ROWS:     101] [EXTRACT|REPLACE] [INST NAME: wp_wc_admin_note_actions]
+TABLE "wp_wc_admin_notes"_______________________________[ROWS:      70] [EXTRACT|REPLACE] [INST NAME: wp_wc_admin_notes]
+TABLE "wp_wc_category_lookup"___________________________[ROWS:      17] [EXTRACT|REPLACE] [INST NAME: wp_wc_category_lookup]
+TABLE "wp_wc_customer_lookup"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_customer_lookup]
+TABLE "wp_wc_download_log"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_download_log]
+TABLE "wp_wc_order_addresses"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_addresses]
+TABLE "wp_wc_order_coupon_lookup"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_coupon_lookup]
+TABLE "wp_wc_order_operational_data"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_operational_data]
+TABLE "wp_wc_order_product_lookup"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_product_lookup]
+TABLE "wp_wc_order_stats"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_stats]
+TABLE "wp_wc_order_tax_lookup"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_tax_lookup]
+TABLE "wp_wc_orders"____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_orders]
+TABLE "wp_wc_orders_meta"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_orders_meta]
+TABLE "wp_wc_product_attributes_lookup"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_product_attributes_lookup]
+TABLE "wp_wc_product_download_directories"______________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_wc_product_download_directories]
+TABLE "wp_wc_product_meta_lookup"_______________________[ROWS:      24] [EXTRACT|REPLACE] [INST NAME: wp_wc_product_meta_lookup]
+TABLE "wp_wc_rate_limits"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_rate_limits]
+TABLE "wp_wc_reserved_stock"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_reserved_stock]
+TABLE "wp_wc_tax_rate_classes"__________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_wc_tax_rate_classes]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_webhooks]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_api_keys]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_attribute_taxonomies]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_downloadable_product_permissions]
+TABLE "wp_woocommerce_log"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_log]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_order_itemmeta]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_order_items]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_payment_tokenmeta]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_payment_tokens]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_sessions]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zone_locations]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zone_methods]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zones]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_tax_rate_locations]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_tax_rates]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.10.2 -- Build Server: 8.0.35
+FILE SIZE:	dup-database__[HASH].sql (3.25MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+DROP TABLE wp_actionscheduler_actions
+DROP TABLE wp_actionscheduler_claims
+DROP TABLE wp_actionscheduler_groups
+DROP TABLE wp_actionscheduler_logs
+DROP TABLE wp_commentmeta
+DROP TABLE wp_comments
+DROP TABLE wp_duplicator_pro_entities
+DROP TABLE wp_duplicator_pro_packages
+DROP TABLE wp_e_events
+DROP TABLE wp_e_submissions
+DROP TABLE wp_e_submissions_actions_log
+DROP TABLE wp_e_submissions_values
+DROP TABLE wp_links
+DROP TABLE wp_options
+DROP TABLE wp_postmeta
+DROP TABLE wp_posts
+DROP TABLE wp_term_relationships
+DROP TABLE wp_term_taxonomy
+DROP TABLE wp_termmeta
+DROP TABLE wp_terms
+DROP TABLE wp_usermeta
+DROP TABLE wp_users
+DROP TABLE wp_wc_admin_note_actions
+DROP TABLE wp_wc_admin_notes
+DROP TABLE wp_wc_category_lookup
+DROP TABLE wp_wc_customer_lookup
+DROP TABLE wp_wc_download_log
+DROP TABLE wp_wc_order_addresses
+DROP TABLE wp_wc_order_coupon_lookup
+DROP TABLE wp_wc_order_operational_data
+DROP TABLE wp_wc_order_product_lookup
+DROP TABLE wp_wc_order_stats
+DROP TABLE wp_wc_order_tax_lookup
+DROP TABLE wp_wc_orders
+DROP TABLE wp_wc_orders_meta
+DROP TABLE wp_wc_product_attributes_lookup
+DROP TABLE wp_wc_product_download_directories
+DROP TABLE wp_wc_product_meta_lookup
+DROP TABLE wp_wc_rate_limits
+DROP TABLE wp_wc_reserved_stock
+DROP TABLE wp_wc_tax_rate_classes
+DROP TABLE wp_wc_webhooks
+DROP TABLE wp_woocommerce_api_keys
+DROP TABLE wp_woocommerce_attribute_taxonomies
+DROP TABLE wp_woocommerce_downloadable_product_permissions
+DROP TABLE wp_woocommerce_log
+DROP TABLE wp_woocommerce_order_itemmeta
+DROP TABLE wp_woocommerce_order_items
+DROP TABLE wp_woocommerce_payment_tokenmeta
+DROP TABLE wp_woocommerce_payment_tokens
+DROP TABLE wp_woocommerce_sessions
+DROP TABLE wp_woocommerce_shipping_zone_locations
+DROP TABLE wp_woocommerce_shipping_zone_methods
+DROP TABLE wp_woocommerce_shipping_zones
+DROP TABLE wp_woocommerce_tax_rate_locations
+DROP TABLE wp_woocommerce_tax_rates
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`%`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	56
+RENAMED TABLES:	0
+QUERIES RAN:	117
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_actionscheduler_actions"______________________[ROWS:   177]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:     4]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:   529]
+TABLE "wp_commentmeta"__________________________________[ROWS:    18]
+TABLE "wp_comments"_____________________________________[ROWS:    19]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     5]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     1]
+TABLE "wp_e_events"_____________________________________[ROWS:     9]
+TABLE "wp_e_submissions"________________________________[ROWS:     0]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:     0]
+TABLE "wp_e_submissions_values"_________________________[ROWS:     0]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_litespeed_avatar"_____________________________[ROWS:     1]
+TABLE "wp_litespeed_url"________________________________[ROWS:     7]
+TABLE "wp_litespeed_url_file"___________________________[ROWS:    11]
+TABLE "wp_options"______________________________________[ROWS:   770]
+TABLE "wp_postmeta"_____________________________________[ROWS:  2152]
+TABLE "wp_posts"________________________________________[ROWS:   170]
+TABLE "wp_rank_math_404_logs"___________________________[ROWS:    49]
+TABLE "wp_rank_math_internal_links"_____________________[ROWS:   101]
+TABLE "wp_rank_math_internal_meta"______________________[ROWS:    43]
+TABLE "wp_rank_math_redirections"_______________________[ROWS:     0]
+TABLE "wp_rank_math_redirections_cache"_________________[ROWS:     0]
+TABLE "wp_term_relationships"___________________________[ROWS:   111]
+TABLE "wp_term_taxonomy"________________________________[ROWS:    48]
+TABLE "wp_termmeta"_____________________________________[ROWS:    36]
+TABLE "wp_terms"________________________________________[ROWS:    48]
+TABLE "wp_usermeta"_____________________________________[ROWS:   109]
+TABLE "wp_users"________________________________________[ROWS:     2]
+TABLE "wp_wc_admin_note_actions"________________________[ROWS:   101]
+TABLE "wp_wc_admin_notes"_______________________________[ROWS:    70]
+TABLE "wp_wc_category_lookup"___________________________[ROWS:    17]
+TABLE "wp_wc_customer_lookup"___________________________[ROWS:     0]
+TABLE "wp_wc_download_log"______________________________[ROWS:     0]
+TABLE "wp_wc_order_addresses"___________________________[ROWS:     0]
+TABLE "wp_wc_order_coupon_lookup"_______________________[ROWS:     0]
+TABLE "wp_wc_order_operational_data"____________________[ROWS:     0]
+TABLE "wp_wc_order_product_lookup"______________________[ROWS:     0]
+TABLE "wp_wc_order_stats"_______________________________[ROWS:     0]
+TABLE "wp_wc_order_tax_lookup"__________________________[ROWS:     0]
+TABLE "wp_wc_orders"____________________________________[ROWS:     0]
+TABLE "wp_wc_orders_meta"_______________________________[ROWS:     0]
+TABLE "wp_wc_product_attributes_lookup"_________________[ROWS:     0]
+TABLE "wp_wc_product_download_directories"______________[ROWS:     3]
+TABLE "wp_wc_product_meta_lookup"_______________________[ROWS:    24]
+TABLE "wp_wc_rate_limits"_______________________________[ROWS:     0]
+TABLE "wp_wc_reserved_stock"____________________________[ROWS:     0]
+TABLE "wp_wc_tax_rate_classes"__________________________[ROWS:     2]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:     0]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:     0]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     2]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0]
+TABLE "wp_woocommerce_log"______________________________[ROWS:     0]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:     0]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:     0]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:     1]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:     1]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:     1]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:     1]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:     0]
+
+INSERT DATA RUNTIME: 4.8822 sec.
+STEP-2 COMPLETE @ 12:56:40 - RUNTIME: 4.8826 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/carterco/public_html REPLACE: D:/xampp7/www/carter.local.com [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://carter.com.vn REPLACE: https://carter.local.com:444 [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 12:56:40
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = 1]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wp_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_pro_ui_view_state","duplicator_pro_package_active","duplicator_pro_settings")
+DATABASE OPTIONS DELETED [ROWS:    70]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:   177][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   529][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_commentmeta][0]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_entities"______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_pro_entities][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_events"_____________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_events][0]
+
+EVALUATE TABLE: "wp_e_submissions"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions_actions_log"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions_values"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_litespeed_avatar"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_litespeed_avatar][0]
+
+EVALUATE TABLE: "wp_litespeed_url"________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_litespeed_url][0]
+
+EVALUATE TABLE: "wp_litespeed_url_file"___________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_litespeed_url_file][0]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   700][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  2152][PG:   3][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][2]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   170][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_rank_math_404_logs"___________________________[ROWS:    49][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_rank_math_404_logs][0]
+
+EVALUATE TABLE: "wp_rank_math_internal_links"_____________________[ROWS:   101][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_rank_math_internal_links][0]
+
+EVALUATE TABLE: "wp_rank_math_internal_meta"______________________[ROWS:    43][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_redirections"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_redirections_cache"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   111][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    48][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    36][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_termmeta][0]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    48][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:   101][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    70][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_notes][0]
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:    17][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_addresses"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_operational_data"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_orders"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_orders_meta"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_attributes_lookup"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_download_directories"______________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_product_download_directories][0]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:    24][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_product_meta_lookup][0]
+
+EVALUATE TABLE: "wp_wc_rate_limits"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_attribute_taxonomies][0]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_sessions][0]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_shipping_zone_locations][0]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_shipping_zone_methods][0]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/carterco/public_html" ======================> "D:/xampp7/www/carter.local.com"
+	SEARCH[urlnd]  2:"https://carter.com.vn" ===========================> "https://carter.local.com:444"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_shipping_zones][0]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:64 	|	 Rows:4401 	|	 Cells:25318 
+UPDATED:	Tables:10 	|	 Rows:270 	|	 Cells:277 
+ERRORS:		0 
+RUNTIME:	2.253400 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:D:/xampp7/www/carter.local.com/wp-config.php
+New .htaccess file created:D:/xampp7/www/carter.local.com/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_PLUGIN_DIR "D:/xampp7/www/carter.local.com/wp-content/plugins"
+	UPDATE WPMU_PLUGIN_DIR "D:/xampp7/www/carter.local.com/wp-content/mu-plugins"
+	UPDATE DB_NAME ""khachhang_wp_carter""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost:3316""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_CACHE "false"
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+ - REMOVED 0 storage items
+ - REMOVED 0 schedule items
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 12:56:44 - RUNTIME: 3.5230 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\src\Core\Bootstrap.php:74] RESET TIME
+
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[NOTICE] Plugin WPS Hide Login disabled by default
+	SECTIONS: plugins
+	LONG MSG: This plugin is deactivated by default automatically due to issues that one may encounter when migrating. You must reactivate from the WordPress admin panel after completing the installation or from the plugins tab. Your site's frontend will render properly after reactivating the plugin.
+
+====================================
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] WPS Hide Login has been deactivated
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Activate WPS Hide Login after you login.
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: D:/xampp7/www/carter.local.com/index.php
+E_WARNING mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+	FILE: D:\xampp7\www\carter.local.com\wp-includes\class-wpdb.php[2038]
+	--- TRACE ---
+	FUNCTION: mysqli_real_connect           FILE: D:\xampp7\www\carter.local.com\wp-includes\class-wpdb.php[2038]
+	CLASS___: wpdb->db_connect              FILE: D:\xampp7\www\carter.local.com\wp-includes\class-wpdb.php[773]
+	CLASS___: wpdb->__construct             FILE: D:\xampp7\www\carter.local.com\wp-includes\load.php[678]
+	FUNCTION: require_wp_db                 FILE: D:\xampp7\www\carter.local.com\wp-settings.php[124]
+	FUNCTION: require_once                  FILE: D:\xampp7\www\carter.local.com\carterenv\webconf.php[99]
+	FUNCTION: require_once                  FILE: D:\xampp7\www\carter.local.com\wp-load.php[37]
+	FUNCTION: require_once                  FILE: D:\xampp7\www\carter.local.com\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: D:\xampp7\www\carter.local.com\index.php[17]
+	FUNCTION: require_once                  FILE: D:\xampp7\www\carter.local.com\wp-content\wp_test_script_1a6ba4c-29143606.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: D:/xampp7/www/carter.local.com/wp-login.php
+E_WARNING mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+	FILE: D:\xampp7\www\carter.local.com\wp-includes\class-wpdb.php[2038]
+	--- TRACE ---
+	FUNCTION: mysqli_real_connect           FILE: D:\xampp7\www\carter.local.com\wp-includes\class-wpdb.php[2038]
+	CLASS___: wpdb->db_connect              FILE: D:\xampp7\www\carter.local.com\wp-includes\class-wpdb.php[773]
+	CLASS___: wpdb->__construct             FILE: D:\xampp7\www\carter.local.com\wp-includes\load.php[678]
+	FUNCTION: require_wp_db                 FILE: D:\xampp7\www\carter.local.com\wp-settings.php[124]
+	FUNCTION: require_once                  FILE: D:\xampp7\www\carter.local.com\carterenv\webconf.php[99]
+	FUNCTION: require_once                  FILE: D:\xampp7\www\carter.local.com\wp-load.php[37]
+	FUNCTION: require                       FILE: D:\xampp7\www\carter.local.com\wp-login.php[12]
+	FUNCTION: require_once                  FILE: D:\xampp7\www\carter.local.com\wp-content\wp_test_script_1a6ba4c-29143606.php[96]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+
+
+====================================
+LOG-TIME[D:\xampp7\www\carter.local.com\dup-installer\ctrls\ctrl.base.php:232][DELTA:   0.36272]  MESSAGE:END RENDER PAGE

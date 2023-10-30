@@ -17,7 +17,6 @@
 		<div class="blog-one__single-img">
 			<?php agriox_post_thumbnail(); ?>
 		</div>
-
 		<div class="blog-one__single-content blog-details news-details__content">
 			<ul class="meta-info list-unstyled">
 				<li><?php agriox_posted_on(); ?></li>
@@ -26,7 +25,15 @@
                		<li><?php agriox_comment_count(); ?></li>
            		 <?php endif; ?>
 			</ul>
-
+			<!-- Begin Custom h1 in Single Blog One-->
+			<h1>
+				<?php if (!is_page()) : ?>
+					<?php agriox_page_title(); ?>
+				<?php else : ?>
+					<?php echo wp_kses($agriox_page_title_text, 'agriox_allowed_tags') ?>
+				<?php endif; ?>
+			</h1>
+			<!-- End Custom h1 in Single Blog One-->
 			<?php
 				the_content(
 					sprintf(
@@ -57,5 +64,4 @@
 	<div class="tag-social-link">
 	   <?php agriox_entry_footer(); ?>
 	</div>
-	
 </article><!-- #post-<?php the_ID(); ?> -->
